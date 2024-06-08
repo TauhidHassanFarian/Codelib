@@ -1,4 +1,5 @@
 Unordered set:
+    All operation: O(1) 
     unordered_set<data_type> name;
     //insert () and erase() for modification
     //find() for searching a key
@@ -7,3 +8,4 @@ Unordered set:
       /* for (itr = stringSet.begin(); itr != stringSet.end();
              itr++)
             cout << (*itr) << endl; */
+
