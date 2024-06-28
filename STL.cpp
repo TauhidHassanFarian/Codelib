@@ -19,6 +19,7 @@ multiset and unordered_multiset:
 
 Map(O(logn)) and unordered_map(O(1)):
     map<string,int> m;
+    m.erase()
     m["some"] = 4; -> if something is not initialized in key then its 0
 
 iterators:
