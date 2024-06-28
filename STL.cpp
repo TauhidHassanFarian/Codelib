@@ -21,6 +21,10 @@ Map(O(logn)) and unordered_map(O(1)):
     map<string,int> m;
     m.erase()
     m["some"] = 4; -> if something is not initialized in key then its 0
+    for (auto x : m) {
+	    x.fisrt() -> key
+        x.second() -> element
+    }
 
 iterators:
     s.begin() -> means first position (use * to make it element from pointer)
