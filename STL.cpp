@@ -4,7 +4,7 @@ unordered_set:
     unordered_set<data_type> name;
     insert () and erase() -> for modification
     find() -> for searching a key
-    if (stringSet.find(key) == stringSet.end()) not found
+    if (s.find(key) == s.end()) not found
 
 Set:
     all operation O(logn)
